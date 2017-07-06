@@ -13,7 +13,7 @@ import java.util.Set;
 @Table (name = "EMPLOYEE")
 public class Employee implements Serializable {
 
-    public static final long serialVersionUID = -7544538017359643203L;
+    private static final long serialVersionUID = -7544538017359643203L;
 
     @Id
     private Long id;
